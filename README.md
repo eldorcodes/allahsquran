@@ -6,3 +6,9 @@ This will create a expo app
 This will start expo app on Andoid and IOS
 # expo build:configure
 This command will create a build for native platforms
+# expo build --platform ios
+This command will build a production app for IOS
+# expo build --platform android
+This command will create a production app for Android
+# expo submit --platform ios
+This command will submit a build to App Store
